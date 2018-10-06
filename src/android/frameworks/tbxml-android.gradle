@@ -13,6 +13,9 @@ dependencies {
 
 android {
   compileSdkVersion 26
+  defaultConfig {
+        targetSdkVersion 26
+    }
 
   packagingOptions {
     exclude 'README'
